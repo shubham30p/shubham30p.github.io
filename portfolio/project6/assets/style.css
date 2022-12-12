@@ -1,0 +1,157 @@
+/* Styling for main.html */
+
+body {
+    background: url(img1.jpg);
+/*	background-repeat: no-repeat;*/
+	text-shadow: 3px 3px 4px #6600CC;
+}
+
+#heading {
+    padding: 9px 19px;
+    text-align: center;
+    font-size: 5rem;
+    font-family: Times New Roman;
+	margin: auto;
+	margin-top:10px;
+    border: 2.3px solid #FCFCFC;
+    border-radius: 19px;
+    width: fit-content;
+    color: #FCFCFC;
+}
+
+#hunter-box {
+    margin: auto;
+    margin-top: 7.2vh;
+    width: 51vw;
+}
+
+#hunter-bar {
+	background-color: dark-gray;
+    color: #000d1a;
+    border-radius: 19px;
+    width: 98%;
+    font-size: 1.8rem;
+    padding: 11px 31px;
+    border: none;
+}
+
+#hunter-bar:focus {
+    outline: none;
+}
+
+#results {
+    min-height: 4.9vh;
+    max-height: 49vh;
+    width: 49vw;
+    overflow-y: scroll;
+	margin: auto;
+    background-color: #ffffcc;
+    overflow-x: hidden;
+    position: absolute;
+    opacity: 0.75;
+	margin-top: 5.9px;
+    padding-top: 39.5px;
+    border-radius: 5.2px
+}
+
+
+
+#results::-webkit-scrollbar-thumb {
+    border-radius: 10.2px;
+    border-right: 1px solid #f4f4f4;
+	 background: dark-gray;
+}
+
+#results div span {
+    bottom: 19px;
+    font-size: 1.6rem;
+	position: relative;
+}
+
+#results div a {
+    text-decoration: none;
+    color: #020923;
+}
+
+#results::-webkit-scrollbar-thumb:hover {
+    background: #cccccc;
+}
+
+
+#favourites {
+    font-family: Times New Roman;
+    font-size: 2.1rem;
+    border-radius: 10.3px;
+    border: 2px solid #f6f6f6;
+    padding: 4.2px 21px;
+    color: #f6f6f6;
+    background-color: #FFF2CC;
+    text-decoration: none;
+}
+
+#results::-webkit-scrollbar {
+    width: 22px;
+}
+
+.concealed {
+    display: none;
+}
+
+#results div {
+	margin: 0.95px 0px;
+    font-family: ARIAL BLACK;
+    padding: 11px;
+    box-sizing: border-box;
+    background-color: #F8C86E ;
+}
+
+
+#fav {
+    color: red;
+}
+
+#headline {
+    padding: 19.8px;
+    color: #f6f6f6;
+    text-align: center;
+	font-family: Times New Roman;
+    font-size: 2.5rem;
+}
+
+/* recently viewed superheros */
+
+#body-section {
+	color: #f6f6f6;
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#body-section div {
+	margin: 11px;
+    padding: 19.8px;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#body-section div img {
+    height: 195px;
+    width: 195px;
+    border-radius: 98px;
+    border-right: 4.9px solid #000080;
+    border-bottom: 4.9px solid #cc2900;
+}
+
+#footnote {
+    text-align: center;
+	color: #f6f6f6;
+}
+
+#footnote a {
+    color: #f6f6f6;
+	text-decoration: none;
+}

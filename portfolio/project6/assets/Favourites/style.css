@@ -1,0 +1,78 @@
+body {
+    background-color: #0000cc;
+	text-shadow: 3px 3px 4px #6600CC;
+}
+
+#heading {
+	font-size: 4.1rem;
+    border-radius: 20.3px;
+	font-family: Times New Roman;
+    border: 2.1px solid #f6f6f6;
+    margin: auto;
+    padding: 10.2px 20.3px;
+    text-align: center;
+    width: fit-content;
+}
+
+#heading a {
+    text-decoration: none;
+	color: #f6f6f6;
+}
+
+
+#container_part {
+	justify-content: space-evenly;
+    color: #f6f6f6;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#container_part div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+#container_part div img {
+    border-radius: 126px;
+    border-right: 5.1px solid #003d99;
+    border-bottom: 5.1px solid #e60000;
+	height: 255px;
+    width: 255px;
+    cursor: pointer;
+}
+
+#container_part div span {
+    cursor: pointer;
+	margin: 10.2px;
+}
+
+#container_part div button {
+    cursor: pointer;
+    border: none;
+    color: black;
+	margin: 10.3px;
+    font-size: 2.1rem;
+	background: none;
+    text-shadow: 2.1px 2.1px 4.1px white;
+}
+
+#container_part div button:hover {
+    text-shadow: 2.1px 2.1px 4.1px #0d001a;
+	color: #f4f4f4;
+}
+
+#footnote {
+    text-align: center;
+	color: #f6f6f6;
+}
+
+#footnote a {
+    color: #f6f6f6;
+	text-decoration: none;
+}

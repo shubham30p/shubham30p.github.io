@@ -1,0 +1,110 @@
+body {
+    background-image: linear-gradient(to right, #ff0000,#FFA500,#FFFF00,#00FF00,#0000FF,#4B0082,#EE82EE);
+	text-shadow: 3px 3px 4px #6600CC;
+}
+
+#heading {
+	border: 5.2px solid Black;
+    border-radius: 20.4px;
+	background-color: #2F4F4F;
+	font-size: 4.1rem;
+    font-family: Times New Roman;
+    margin: auto;
+    padding: 10.3px 20.2px;
+    text-align: center;
+    width: fit-content;
+    color: #f6f6f6;
+}
+
+#heading a {
+    text-decoration: none;
+	color: #f6f6f6;.
+}
+
+#hero-name {
+	border: 5.1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 20.2px;
+    border-bottom-right-radius: 20.2px;
+    margin: auto;
+    padding: 5.2px 20.1px;
+    text-align: center;
+    font-size: 3.1rem;
+    color: #f6f6f6;
+    background-color: #000066;
+    width: fit-content;
+}
+
+#fav_hero {
+    color: red;
+}
+
+#fav_hero:hover, #addFav:hover{
+    cursor: pointer;
+}
+
+#container_div {
+	flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20.2px;
+	justify-content: space-evenly;
+    display: flex;
+}
+
+.information {
+	color: rgb(255, 255, 255);
+    opacity: 0.85;
+    text-align: left;
+    margin: 10.2px;
+    padding: 20.1px;
+    background-color: black;
+}
+
+.information-name {
+    font-size: 2rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr td:first-child,
+table tr th:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child,
+table tr th:last-child {
+    border-right: 0;
+}
+
+table tr:first-child th,
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child th,
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table td,
+table th {
+    border: 1px solid #6e4444;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#footnote {
+	padding: 5.2px;
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    color: #f6f6f6;
+    background-color: #25383C;
+}
+
+#footnote a {
+	color: #f6f6f6;
+    text-decoration: none;
+}
